@@ -84,6 +84,11 @@ const transporter = nodemailer.createTransport({
   rateLimit: 5 // max 5 emails per rateDelta
 });
 
+app.get('/', (req, res) => {
+  res.send({ message: 'API is running' });
+});
+
+
 // API endpoint with enhanced error handling
 app.post('/api/contact', async (req, res) => {
   try {
