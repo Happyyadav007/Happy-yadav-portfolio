@@ -13,7 +13,7 @@ const app = express();
 // Security Middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000', // Specific origin instead of *
+  origin: process.env.FRONTEND_URL || 'https://happy-yadav-portfolio.vercel.app/',
   methods: ['POST'],
   allowedHeaders: ['Content-Type']
 }));
