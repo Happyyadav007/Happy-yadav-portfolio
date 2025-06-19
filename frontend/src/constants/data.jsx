@@ -33,7 +33,7 @@ const DUMMY_USER_DATA = {
   linkedin: "https://linkedin.com/in/happyyadav/",
   github: "https://github.com/Happyyadav007",
   leetcode: "https://leetcode.com/u/Happyyadav077/",
-  cvLink: "/Happy_Yadav_Resume.pdf", // Placeholder for your actual resume PDF link
+  cvLink: "/Happy_Yadav_Resume.pdf", 
   heroSummary: "Innovative MERN Stack Developer specializing in scalable web applications and secure backend systems. Passionate about crafting high-performance, elegant user experiences with React, Node.js, and MongoDB.",
   aboutMe: [
     "Hello! I'm Happy Yadav, a dedicated MERN Stack Developer with a strong enthusiasm for building efficient, scalable, and user-centric web applications. My journey in the tech world is fueled by an insatiable curiosity for how things work and a profound desire to create solutions that genuinely make a difference.",
@@ -56,7 +56,7 @@ const DUMMY_USER_DATA = {
       skills: ["Node.js", "Express.js", "MongoDB", "React.js", "Tailwind CSS", "API Development", "JWT", "RBAC", "System Integration"]
     }
   ],
-  projects: [ // Keeping existing projects, can add more details if needed
+  projects: [ 
     {
       id: "proj1",
       name: "CodeNode | Ed-Tech Backend Application",
@@ -65,7 +65,7 @@ const DUMMY_USER_DATA = {
       tech: ["Node.js", "MongoDB Atlas", "Cloudinary", "Express.js", "JWT", "REST APIs"],
       longDescription: "Developed a cutting-edge Backend web application for an educational platform, facilitating seamless interactions among Administrators, Students, and Instructors. Implemented a robust cloud-based database infrastructure using MongoDB Atlas, ensuring scalability and reliability for dynamic content management. Developed backend functionality to enable instructors to securely upload and manage courses and lectures on Cloudinary, ensuring seamless content storage and retrieval for an enhanced learning experience. Facilitated efficient enrollment processes and course management functionalities for both Administrators and Instructors, optimizing workflow efficiency and user satisfaction.",
       imageUrl: "https://placehold.co/600x400/0F172A/A78BFA?text=CodeNode+Project&font=inter",
-      sourceLink: "https://github.com/Happyyadav007/CodeNode---Ed-Tech-Backend-Application",
+      sourceLink: "https://github.com/Happyyadav007/CodeNode",
       liveLink: null, 
       features: ["Role-based access (RBAC)", "Course & Lecture Management", "Secure Cloudinary Uploads", "MongoDB Atlas Integration", "Scalable API Design"]
     },
@@ -77,8 +77,8 @@ const DUMMY_USER_DATA = {
       tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Google Gemini AI", "Nodemailer", "Multer"],
       longDescription: "Built a MERN stack app integrating Google Gemini AI for AI-powered email generation. Integrated Nodemailer for seamless email delivery and Multer for secure file uploads, allowing attachments before sending. Implemented a draft-saving feature using MongoDB, enabling users to store and manage emails for later use. Developed a responsive React.js frontend for a smooth user experience, ensuring efficient email management.",
       imageUrl: "https://placehold.co/600x400/0F172A/A78BFA?text=AI+Email+Generator&font=inter",
-      sourceLink: "https://github.com/Happyyadav007/AI-Powered-Email-Generator",
-      liveLink: null,
+      sourceLink: "https://github.com/Happyyadav007/Ai_powered_email_generator_app",
+      liveLink: "https://ai-powered-email-generator-frontend-9nzpk4c2t.vercel.app/" ,
       features: ["AI-driven Email Generation", "Secure File Attachments (Multer)", "Email Drafts & Storage", "Nodemailer Integration", "Responsive UI/UX"]
     },
     {
@@ -89,8 +89,8 @@ const DUMMY_USER_DATA = {
       tech: ["HTML5", "CSS3", "TailwindCSS", "Javascript (ES6+)", "OpenWeatherMap API"],
       longDescription: "Crafted a responsive and visually appealing web application using HTML, CSS, and Tailwind CSS, showcasing a strong command of modern front-end technologies. Integrated the OpenWeatherMap API to fetch and display up-to-date weather information, including temperature, humidity, and conditions for any location.",
       imageUrl: "https://placehold.co/600x400/0F172A/A78BFA?text=Weather+App&font=inter",
-      sourceLink: "https://github.com/Happyyadav007/Weather-App",
-      liveLink: "https://happyyadav007.github.io/Weather-App/",
+      sourceLink: "https://github.com/Happyyadav007/weather-app",
+      liveLink: "https://weather-app-phi-mauve-64.vercel.app/",
       features: ["Real-time Weather Data", "Global Location Search", "Dynamic UI Updates", "Responsive Design", "Third-party API Integration"]
     },
      {
@@ -101,19 +101,19 @@ const DUMMY_USER_DATA = {
       tech: ["Node.js", "Express.js", "MongoDB", "JWT", "Cookie-based Sessions", "Bcrypt"],
       longDescription: "Developed a secure and scalable backend application using Express.js and MongoDB, providing login and signup functionalities with robust authentication. Implemented JWT-based token authentication and cookie-based session management to ensure secure user access and reliable API communication. Designed RESTful APIs for seamless integration with frontend systems, enabling efficient user authentication and data exchange. Optimized database operations with MongoDB for efficient data retrieval and secure storage, ensuring application scalability and performance.",
       imageUrl: "https://placehold.co/600x400/0F172A/A78BFA?text=AuthBackend+App&font=inter",
-      sourceLink: "https://github.com/Happyyadav007/AuthBackend-App",
+      sourceLink: "https://github.com/Happyyadav007/Authentication-App",
       liveLink: null,
       features: ["JWT & Cookie Authentication", "Password Hashing (Bcrypt)", "RESTful API Design", "Scalable Architecture", "Data Security Best Practices"]
     }
   ],
-  skills: { // No change from previous, structure is good
+  skills: { 
     languages: { name: "Languages", items: ["Java", "Javascript (ES6+)", "Python (Basic)"], icon: () => <CodeBracketIcon /> },
     frontend: { name: "Frontend", items: ["HTML5", "CSS3", "React.js", "TailwindCSS", "Bootstrap5", "Redux (Toolkit)"], icon: () => <DesktopComputerIcon /> },
     backend: { name: "Backend", items: ["Node.js", "Express.js", "RESTful APIs"], icon: () => <ServerIcon /> },
     databases: { name: "Databases", items: ["MongoDB", "MySQL", "Mongoose ODM"], icon: () => <DatabaseIcon /> },
     tools: { name: "Tools & Platforms", items: ["VS Code", "Git", "Github", "Vercel", "Render", "Postman", "Linux", "Docker (Basic)"], icon: () => <CubeTransparentIcon /> },
   },
-  services: [ // No change from previous
+  services: [ 
     {
       id: "serv1",
       title: "Full-Stack Web Development",
@@ -143,7 +143,7 @@ const DUMMY_USER_DATA = {
       tags: ["MongoDB", "MySQL", "Mongoose", "Data Modeling"]
     }
   ],
-  education: [ // No change from previous
+  education: [ 
     {
       id: "edu1",
       degree: "Master of Computer Application (MCA)",
@@ -179,7 +179,7 @@ const DUMMY_USER_DATA = {
       imageUrl: "https://placehold.co/600x400/0F172A/A78BFA?text=Node.js+Security&font=inter"
     }
   ],
-  achievements: [ // Expanded for a dedicated page/section
+  achievements: [
     { id: "ach1", name: "Certified Software Engineer - IT Services", issuer: "AMCAT", date: "Dec 2024", description: "Validated skills in software engineering principles, data structures, and algorithms through a comprehensive assessment." },
     { id: "ach2", name: "Certified Software Development Trainee", issuer: "AMCAT", date: "Nov 2024", description: "Successfully completed intensive training focused on modern software development practices and tools." },
     { id: "ach3", name: "LeetCode Knight Badge", issuer: "LeetCode", date: "Ongoing", description: "Achieved Knight badge by solving 200+ problems, demonstrating strong problem-solving and algorithmic skills." },
