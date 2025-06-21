@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { HeroSection, AboutSection, HomePageExperienceSection, HomePageEducationSection } from './';
 
 export const HomePage = ({ navigateTo }) => (
-  <div className="relative">
+  <div className="relative overflow-hidden">
     {/* Unified Background for entire HomePage */}
      <div className="absolute inset-0 -z-10">
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-slate-900 via-gray-900 to-black"></div>

@@ -12,7 +12,7 @@ export const Navbar = ({ navigateTo, currentPage }) => {
     { name: "Services", page: "ServicesPage"},
     { name: "Projects", page: "ProjectListPage" },
     { name: "Resume", page: "ResumePage"},
-    { name: "Testimonials", page: "TestimonialsPage"},
+    // { name: "Testimonials", page: "TestimonialsPage"},
     { name: "Blog", page: "BlogListPage" },
     { name: "Contact", page: "ContactPage" },
   ];

@@ -67,8 +67,8 @@ function App() {
         );
       case "ResumePage":
         return <ResumePage navigateTo={navigateTo} />;
-      case "TestimonialsPage":
-        return <TestimonialsPage navigateTo={navigateTo} />;
+      // case "TestimonialsPage":
+      //   return <TestimonialsPage navigateTo={navigateTo} />;
       case "SkillsPage":
         return <SkillsPage navigateTo={navigateTo} />;
       case "BlogListPage":
